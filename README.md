@@ -1,15 +1,27 @@
-Git
- │
- ├── Version-controls your code
- │
- └── Version-controls DVC metadata (.dvc files)
-              │
-              ↓
-             DVC
-              │
-              ├── Tracks Salary_Data.csv
-              │
-              └── Tracks model.pkl
+Workflow
+Install DVC
+     ↓
+Initialize Git
+     ↓
+Initialize DVC
+     ↓
+Add Dataset to DVC
+     ↓
+Commit DVC Metadata to Git
+     ↓
+Modify Dataset
+     ↓
+Checkout Git Version
+     ↓
+DVC Checkout / Pull Dataset
+     ↓
+Train ML Model
+     ↓
+Add Model to DVC
+     ↓
+Commit Changes to Git
+Git vs DVC
+
 
 
 | Command                                          | Purpose                    | What it creates/affects                   |
